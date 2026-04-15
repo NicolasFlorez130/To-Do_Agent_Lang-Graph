@@ -4,7 +4,7 @@
     "type": "module",
     "private": false,
     "scripts": {
-        "config": "create langgraph config",
+        "config": "bun create langgraph config",
         "dev": "bunx @langchain/langgraph-cli dev",
         "up": "bunx @langchain/langgraph-cli up",
         "build": "bunx @langchain/langgraph-cli build"
