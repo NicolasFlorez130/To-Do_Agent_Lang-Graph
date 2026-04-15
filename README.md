@@ -1,6 +1,10 @@
 # To-Do Agent
 
-A chatbot designed as a personal companion to help users keep track of their To-Do lists. Originally implemented in Python, this project uses LangGraph and LLMs to manage long-term memory across three main areas:
+A chatbot designed as a personal companion to help users keep track of their To-Do lists. 
+
+> **Note:** This project is a TypeScript adaptation of the final project from the Langchain Academy course "LangGraph Foundations" in Python. The original implementation can be found here: [`memory_agent.py`](https://github.com/langchain-ai/langchain-academy/blob/main/module-5/studio/memory_agent.py).
+
+This project uses LangGraph and LLMs to manage long-term memory across three main areas:
 
 1. **User Profile**: General information about the user (name, location, job, connections, interests).
 2. **To-Do List**: Tasks with details like estimated time, deadlines, actionable solutions, and status.
