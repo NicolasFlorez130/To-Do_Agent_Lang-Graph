@@ -18,6 +18,12 @@ The agent is built with LangGraph and features a state graph with the following 
 - `update_todos`: Extracts task-related information to update or insert items in the To-Do list.
 - `update_instructions`: Learns from user feedback to update preferences on how items should be added or managed.
 
+## LangSmith Studio
+
+The agent can be explored interactively in [LangSmith Studio](https://smith.langchain.com/) using the dev server (`bun run dev`). The graph topology is rendered live, and each node execution is traced in the right-hand panel — making it easy to inspect memory updates and routing decisions in real time.
+
+![To-Do Agent running in LangSmith Studio](screenshots/rendered_graph.png)
+
 ## Planned Features
 
 - **Spy Integration**: The addition of a `Spy` mechanism (similar to the original Python implementation) is planned. This will inspect tool calls made during memory extraction (e.g., via Trustcall) to provide visibility into exact changes, such as identifying newly created memories versus patches to existing documents.

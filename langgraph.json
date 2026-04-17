@@ -1,6 +1,6 @@
 {
   "node_version": "20",
   "graphs": {
-    "graph": "./index.ts:graph"
+    "ToDoAgent": "./index.ts:graph"
   }
 }
